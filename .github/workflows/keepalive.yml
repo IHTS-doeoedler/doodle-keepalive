@@ -10,5 +10,5 @@ jobs:
     steps:
       - name: Ping Supabase
         run: |
-          curl -X GET "https://DEIN.supabase.co/rest/v1/doodle_votes" \
+          curl -X GET "https://Umfragen.supabase.co/rest/v1/doodle_votes" \
           -H "apikey: DEIN_KEY"
